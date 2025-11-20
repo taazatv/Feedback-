@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+html {
+  font-size: 3vmin;
+}
+
+#root,
+body {
+  @apply w-screen h-screen flex justify-center items-center overflow-hidden;
+}
+
+input {
+  @apply border border-neutral-400 px-4 py-2 rounded-md w-full;
+}
