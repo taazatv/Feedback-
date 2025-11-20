@@ -42,7 +42,7 @@ function App() {
     if (!errorMessage) {
       setStatus("loading");
       emailjs
-        .send("service_uwa1lia","template_pms1q86", {
+        .send("service_hawwbzl","template_pms1q86", {
           subject,
           name,
           time: format(today, "EEE, dd MMM yyyy HH:mm:ss 'GMT',"),
