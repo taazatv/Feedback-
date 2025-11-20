@@ -16,7 +16,7 @@ function App() {
 
   // Initialize once
   useEffect(() => {
-    emailjs.init("cdUZZqjrGrJht5EToS"); // <- string, not object
+    emailjs.init("cdUZZqjrGrJht5ETo"); // <- string, not object
   }, []);
 
   // Validation
