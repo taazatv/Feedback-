@@ -16,7 +16,7 @@ function App() {
   );
 
   emailjs.init({
-    publicKey: "XCktSwaXLvhhTeDf6",
+    publicKey: "cdUZZqjrGrJht5EToS",
   });
 
   useEffect(() => {
@@ -42,7 +42,7 @@ function App() {
     if (!errorMessage) {
       setStatus("loading");
       emailjs
-        .send("NATURAL GROUP", "template_ui2pmyj", {
+        .send("service_uwa1lia","template_pms1q86", {
           subject,
           name,
           time: format(today, "EEE, dd MMM yyyy HH:mm:ss 'GMT',"),
